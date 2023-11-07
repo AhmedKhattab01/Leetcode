@@ -9,12 +9,10 @@ class Solution {
             } else if (num <= secondSmall) {
                 secondSmall = num
             } else {
-                // If we find a number greater than both small and secondSmall, we have found a triplet
                 return true
             }
         }
 
         return false
-
     }
 }
